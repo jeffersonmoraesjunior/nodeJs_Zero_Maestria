@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar usuário</title>
+</head>
+<body>
+    <h1>Adicionar o usuário</h1>
+    <form action="/users/save" method="post">
+        <!--Inicio das perguntas para cadastro-->
+        <div>
+            <input type="text" name="name" placeholder="Digite o seu Nome">
+        </div>
+        
+        <div>
+            <input type="text" name="age" placeholder="Digite a sua Idade">
+        </div>
+        <!--Fim das perguntas de nome e idade-->
+
+        <!--Botao de Cadastrar-->
+        <div>
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
